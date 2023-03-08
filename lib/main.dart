@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': 'What\'s your favorite color?',
       'answers': [
-        {'text': 'Black', 'score': 10},
+        {'text': 'Blackish', 'score': 10},
         {'text': 'Red', 'score': 5},
         {'text': 'Green', 'score': 3},
         {'text': 'White', 'score': 1},
@@ -48,9 +48,9 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': 'Who is the best coder?',
       'answers': [
-        {'text': 'Mikhail', 'score': 10},
-        {'text': 'Mikhail', 'score': 5},
-        {'text': 'Mikhail', 'score': 3},
+        {'text': 'Mikhail', 'score': 1},
+        {'text': 'Mikhail', 'score': 1},
+        {'text': 'Mikhail', 'score': 1},
         {'text': 'Mikhail', 'score': 1},
       ],
     },
