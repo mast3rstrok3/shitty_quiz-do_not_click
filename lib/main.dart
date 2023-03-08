@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
       'questionText': 'What\'s your favorite color?',
-      'answers': ['Black', 'Red', 'Green', 'White'],
+      'answers': ['Blackish', 'Red', 'Green', 'White'],
     },
     {
       'questionText': 'What\'s your favorite animal?',
