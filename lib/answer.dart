@@ -13,7 +13,12 @@ class Answer extends StatelessWidget {
       margin: EdgeInsets.symmetric(horizontal: 16.0),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.blue, foregroundColor: Colors.white),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+              ),
+            backgroundColor: Color(0xff695DF3), 
+            foregroundColor: Color(0xffFEFDFF),
+            ),
         onPressed: selectHandler,
         child: Text(answerText),
       ),

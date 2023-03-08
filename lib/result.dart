@@ -26,11 +26,14 @@ class Result extends StatelessWidget {
       child: Column(
         children: [
           Text(
-              resultPhrase,
-            ),
-            TextButton(onPressed: resetHandler, child: Text('Restart Quiz!'),),
+            resultPhrase,
+          ),
+          TextButton(
+            onPressed: resetHandler,
+            child: Text('Restart Quiz!'),
+          ),
         ],
       ),
-      );
+    );
   }
 }
