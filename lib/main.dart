@@ -20,19 +20,39 @@ class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
       'questionText': 'What\'s your favorite color?',
-      'answers': ['Blackish', 'Red', 'Green', 'White'],
+      'answers': [
+        {'text': 'Black', 'score': 10},
+        {'text': 'Red', 'score': 5},
+        {'text': 'Green', 'score': 3},
+        {'text': 'White', 'score': 1},
+      ],
     },
     {
       'questionText': 'What\'s your favorite animal?',
-      'answers': ['Tiger', 'Bear', 'Fox', 'Wolf'],
+      'answers': [
+        {'text': 'Tieger', 'score': 10},
+        {'text': 'Bear', 'score': 5},
+        {'text': 'Fox', 'score': 3},
+        {'text': 'Wolf', 'score': 1},
+      ],
     },
     {
       'questionText': 'How are you doing?',
-      'answers': ['Great', 'OK', 'Meh', 'bad'],
+      'answers': [
+        {'text': 'great', 'score': 10},
+        {'text': 'OK', 'score': 5},
+        {'text': 'Meh', 'score': 3},
+        {'text': 'Bad', 'score': 1},
+      ],
     },
     {
       'questionText': 'Who is the best coder?',
-      'answers': ['Mikhail', 'Mikhail', 'Mikhail', 'Mikhail'],
+      'answers': [
+        {'text': 'Mikhail', 'score': 10},
+        {'text': 'Mikhail', 'score': 5},
+        {'text': 'Mikhail', 'score': 3},
+        {'text': 'Mikhail', 'score': 1},
+      ],
     },
   ];
   var _questionIndex = 0;
